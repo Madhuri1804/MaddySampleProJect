@@ -1,6 +1,7 @@
 package info.seleniumcucumber;
 
 
+import com.google.gson.internal.bind.util.ISO8601Utils;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -19,4 +20,7 @@ import org.junit.runner.RunWith;
         features = {"classpath:features/my_first.feature"}
 )
 public class RunnerTest {
+        public static void now(){
+                System.out.println("Hello mickey and hi mini");
+       }
 }
